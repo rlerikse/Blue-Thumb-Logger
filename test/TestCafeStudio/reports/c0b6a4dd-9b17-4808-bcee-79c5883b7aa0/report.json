@@ -1,0 +1,61 @@
+{
+    "id": "c0b6a4dd-9b17-4808-bcee-79c5883b7aa0",
+    "name": "\"new-fixture.testcafe\" fixture tests",
+    "defaultReportView": "grid",
+    "status": "failed",
+    "path": "/home/campus06/lswilson/TestCafeStudio/reports/c0b6a4dd-9b17-4808-bcee-79c5883b7aa0/report.json",
+    "runOptions": {
+        "name": "\"new-fixture.testcafe\" fixture tests",
+        "src": [
+            "/home/campus06/lswilson/TestCafeStudio/localhost-8000/new-fixture.testcafe"
+        ],
+        "browsers": [
+            "chrome"
+        ],
+        "skipJsErrors": false,
+        "takeScreenshotsOnFails": true,
+        "quarantineMode": false,
+        "debugMode": false,
+        "debugOnFail": true,
+        "screenshotsPath": "/home/campus06/lswilson/TestCafeStudio/reports/screenshots",
+        "defaultReportView": "grid",
+        "selectorTimeout": 10000,
+        "assertionTimeout": 3000,
+        "speed": 1,
+        "concurrency": 1
+    },
+    "raw": [
+        {
+            "method": "reportTaskStart",
+            "args": [
+                "2018-10-02T20:59:15.138Z",
+                [
+                    "Chrome 68.0.3440 / Linux 0.0.0"
+                ],
+                1
+            ]
+        },
+        {
+            "method": "reportFixtureStart",
+            "args": [
+                "New Fixture",
+                "/home/campus06/lswilson/TestCafeStudio/localhost-8000/new-fixture.testcafe"
+            ]
+        },
+        {
+            "method": "reportTestDone",
+            "args": [
+                "New Test",
+                "{\"errs\":[{\"TEMPLATES\":{},\"userAgent\":\"Chrome 68.0.3440 / Linux 0.0.0\",\"screenshotPath\":\"/home/campus06/lswilson/TestCafeStudio/reports/screenshots/2018-10-02_04-59-14/test-1/Chrome_68.0.3440_Linux_0.0.0/errors/1.png\",\"testRunPhase\":\"inTest\",\"type\":\"actionSpeedOptionError\",\"isTestCafeError\":true,\"callsite\":\"13\",\"optionName\":\"speed\",\"actualValue\":2,\"markup\":\"<div class=\\\"message\\\">The \\\"speed\\\" option is expected to be a number between 0.01 and 1, but it was 2.</div>\\n\\n<strong>Browser:</strong> <span class=\\\"user-agent\\\">Chrome 68.0.3440 / Linux 0.0.0</span>\\n<div class=\\\"screenshot-info\\\"><strong>Screenshot:</strong> <a class=\\\"screenshot-path\\\">/home/campus06/lswilson/TestCafeStudio/reports/screenshots/2018-10-02_04-59-14/test-1/Chrome_68.0.3440_Linux_0.0.0/errors/1.png</a></div>\\n\\n13\"}],\"durationMs\":51353,\"screenshotPath\":\"/home/campus06/lswilson/TestCafeStudio/reports/screenshots/2018-10-02_04-59-14/test-1\",\"screenshots\":[{\"screenshotPath\":\"/home/campus06/lswilson/TestCafeStudio/reports/screenshots/2018-10-02_04-59-14/test-1/Chrome_68.0.3440_Linux_0.0.0/errors/1.png\",\"thumbnailPath\":\"/home/campus06/lswilson/TestCafeStudio/reports/screenshots/2018-10-02_04-59-14/test-1/Chrome_68.0.3440_Linux_0.0.0/errors/thumbnails/1.png\",\"userAgent\":\"Chrome_68.0.3440_Linux_0.0.0\",\"quarantineAttemptID\":null,\"takenOnFail\":true}],\"quarantine\":null,\"skipped\":false}"
+            ]
+        },
+        {
+            "method": "reportTaskDone",
+            "args": [
+                "2018-10-02T21:00:06.497Z",
+                0,
+                []
+            ]
+        }
+    ]
+}

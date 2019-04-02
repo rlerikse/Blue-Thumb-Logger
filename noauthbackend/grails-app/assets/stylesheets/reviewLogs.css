@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(../font/robo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.logList{
+	padding-bottom: 10px;
+	position:relative;
+}
+
+.reviewMenu{
+	position: absolute;
+	top: 36%;
+	transform: translateY(-50%);
+	width:100%;
+	height: 70%;
+	transition : transform 800ms ease;
+}
+
+.logTable{
+	width: 90%;
+}
+
+#logsDatatable{
+	width: 100%;
+}
+
+table.display tbody tr:hover{
+    background-color: rgba(77,255,255,.5) !important;
+    cursor : pointer;
+}
+
+.submitBtn{
+	border : 1px solid black;
+	width : 200px;
+	height: 50px;
+	display: flex;
+	align-items : center;
+	justify-content: center;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor : pointer;
+	position: relative;
+}
+
+.submitBtn:hover{
+	background-color: rgba(77,255,255,.5);
+}
+
+.approveBtn:hover{
+	background-color: #90EE90;
+}
+
+.approveBtn{
+	border : 1px solid black;
+	width : 200px;
+	height: 50px;
+	display: flex;
+	align-items : center;
+	justify-content: center;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor : pointer;
+	position: relative;
+}
+
+.approveBtn:hover{
+	background-color: #90EE90;
+}
+
+.approveBtn.down{
+	background-color: #90EE90;
+}
+
+.denyBtn{
+	border : 1px solid black;
+	width : 200px;
+	height: 50px;
+	display: flex;
+	align-items : center;
+	justify-content: center;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor : pointer;
+	position: relative;
+}
+
+.denyBtn:hover{
+	background-color: #ff6666;
+}
+
+.denyBtn.down{
+	background-color: #ff6666;
+}
+
+.approvalBtns{
+	padding: 10px;
+	justify-content:center;
+	display:flex;
+}
+
+#approve{
+	user-select: none;
+  	/*text-align: center;*/
+  	margin-right: 4%;
+}
+
+#deny{
+	user-select: none;
+	/*text-align: center;
+	margin-left: 4%;*/
+	margin-right: 4%;
+}
+
+.dateFilter{
+	width: 90%;
+}
+
+#dateFilterTable{
+	width: 100%;
+	padding-bottom: 1%;
+}
+
+#dateFilterTable td{
+	display:inline-block;
+}
+
+#min{
+	border-color: black;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+}
+
+#max{
+	border-color: black;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.back{
+	width: 100%;
+	display:flex;
+}
+
+.back i{
+	margin-left: 5%;
+}
+
+select{
+	font-family:'Roboto' !important;
+	font-size: 20px;
+	border-color: black;
+	background-color: white;
+	border-left:none !important;
+	border-right:none !important;
+	border-top:none !important;
+}
+
+table.dataTable thead th, table.dataTable thead td{
+	border-color:black !important;
+}
+
+.reviewMenu .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button{
+	border-left:none !important;
+	border-right:none !important;
+	border-top:none !important;
+
+	border-color: black;
+	color: black !important;
+}
+
+.reviewMenu .dataTables_wrapper .dataTables_paginate .paginate_button.current{
+	border: none !important;
+	border-color: black !important;
+	background-image:none !important;
+	background-color: white !important;	
+	color: black !important;
+}
+
+.reviewMenu .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+	border: none !important;
+	border-color: black !important;
+	color: black !important;
+	background-image:none !important;
+	color: black !important;
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate{
+	color:black !important;
+}

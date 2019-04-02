@@ -1,0 +1,61 @@
+{
+    "id": "2ba56927-2720-4e6a-86d5-615b11594dfb",
+    "name": "\"new-fixture.testcafe\" fixture tests",
+    "defaultReportView": "grid",
+    "status": "failed",
+    "path": "/home/campus06/lswilson/TestCafeStudio/reports/2ba56927-2720-4e6a-86d5-615b11594dfb/report.json",
+    "runOptions": {
+        "name": "\"new-fixture.testcafe\" fixture tests",
+        "src": [
+            "/home/campus06/lswilson/TestCafeStudio/localhost-8000/new-fixture.testcafe"
+        ],
+        "browsers": [
+            "chrome"
+        ],
+        "skipJsErrors": false,
+        "takeScreenshotsOnFails": true,
+        "quarantineMode": false,
+        "debugMode": false,
+        "debugOnFail": true,
+        "screenshotsPath": "/home/campus06/lswilson/TestCafeStudio/reports/screenshots",
+        "defaultReportView": "grid",
+        "selectorTimeout": 10000,
+        "assertionTimeout": 3000,
+        "speed": 1,
+        "concurrency": 1
+    },
+    "raw": [
+        {
+            "method": "reportTaskStart",
+            "args": [
+                "2018-10-02T21:00:15.926Z",
+                [
+                    "Chrome 68.0.3440 / Linux 0.0.0"
+                ],
+                1
+            ]
+        },
+        {
+            "method": "reportFixtureStart",
+            "args": [
+                "New Fixture",
+                "/home/campus06/lswilson/TestCafeStudio/localhost-8000/new-fixture.testcafe"
+            ]
+        },
+        {
+            "method": "reportTestDone",
+            "args": [
+                "New Test",
+                "{\"errs\":[{\"TEMPLATES\":{},\"userAgent\":\"Chrome 68.0.3440 / Linux 0.0.0\",\"screenshotPath\":\"/home/campus06/lswilson/TestCafeStudio/reports/screenshots/2018-10-02_05-00-15/test-1/Chrome_68.0.3440_Linux_0.0.0/errors/1.png\",\"testRunPhase\":\"inTest\",\"type\":\"actionElementIsInvisibleError\",\"isTestCafeError\":true,\"callsite\":\"13\",\"markup\":\"<div class=\\\"message\\\">The element that matches the specified selector is not visible.</div>\\n\\n<strong>Browser:</strong> <span class=\\\"user-agent\\\">Chrome 68.0.3440 / Linux 0.0.0</span>\\n<div class=\\\"screenshot-info\\\"><strong>Screenshot:</strong> <a class=\\\"screenshot-path\\\">/home/campus06/lswilson/TestCafeStudio/reports/screenshots/2018-10-02_05-00-15/test-1/Chrome_68.0.3440_Linux_0.0.0/errors/1.png</a></div>\\n\\n13\"}],\"durationMs\":99754,\"screenshotPath\":\"/home/campus06/lswilson/TestCafeStudio/reports/screenshots/2018-10-02_05-00-15/test-1\",\"screenshots\":[{\"screenshotPath\":\"/home/campus06/lswilson/TestCafeStudio/reports/screenshots/2018-10-02_05-00-15/test-1/Chrome_68.0.3440_Linux_0.0.0/errors/1.png\",\"thumbnailPath\":\"/home/campus06/lswilson/TestCafeStudio/reports/screenshots/2018-10-02_05-00-15/test-1/Chrome_68.0.3440_Linux_0.0.0/errors/thumbnails/1.png\",\"userAgent\":\"Chrome_68.0.3440_Linux_0.0.0\",\"quarantineAttemptID\":null,\"takenOnFail\":true}],\"quarantine\":null,\"skipped\":false}"
+            ]
+        },
+        {
+            "method": "reportTaskDone",
+            "args": [
+                "2018-10-02T21:01:55.690Z",
+                0,
+                []
+            ]
+        }
+    ]
+}

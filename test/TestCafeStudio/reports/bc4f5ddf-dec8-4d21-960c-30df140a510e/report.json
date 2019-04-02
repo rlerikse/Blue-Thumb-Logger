@@ -1,0 +1,61 @@
+{
+    "id": "bc4f5ddf-dec8-4d21-960c-30df140a510e",
+    "name": "\"new-fixture.testcafe\" fixture tests",
+    "defaultReportView": "grid",
+    "status": "succeeded",
+    "path": "/home/campus06/lswilson/TestCafeStudio/reports/bc4f5ddf-dec8-4d21-960c-30df140a510e/report.json",
+    "runOptions": {
+        "name": "\"new-fixture.testcafe\" fixture tests",
+        "src": [
+            "/home/campus06/lswilson/TestCafeStudio/localhost-8000/new-fixture.testcafe"
+        ],
+        "browsers": [
+            "chrome"
+        ],
+        "skipJsErrors": false,
+        "takeScreenshotsOnFails": true,
+        "quarantineMode": false,
+        "debugMode": false,
+        "debugOnFail": true,
+        "screenshotsPath": "/home/campus06/lswilson/TestCafeStudio/reports/screenshots",
+        "defaultReportView": "grid",
+        "selectorTimeout": 10000,
+        "assertionTimeout": 3000,
+        "speed": 1,
+        "concurrency": 1
+    },
+    "raw": [
+        {
+            "method": "reportTaskStart",
+            "args": [
+                "2018-10-02T21:02:01.816Z",
+                [
+                    "Chrome 68.0.3440 / Linux 0.0.0"
+                ],
+                1
+            ]
+        },
+        {
+            "method": "reportFixtureStart",
+            "args": [
+                "New Fixture",
+                "/home/campus06/lswilson/TestCafeStudio/localhost-8000/new-fixture.testcafe"
+            ]
+        },
+        {
+            "method": "reportTestDone",
+            "args": [
+                "New Test",
+                "{\"errs\":[],\"durationMs\":6995,\"screenshotPath\":null,\"screenshots\":[],\"quarantine\":null,\"skipped\":false}"
+            ]
+        },
+        {
+            "method": "reportTaskDone",
+            "args": [
+                "2018-10-02T21:02:08.817Z",
+                1,
+                []
+            ]
+        }
+    ]
+}

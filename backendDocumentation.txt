@@ -1,0 +1,32 @@
+Logan Wilson
+2018 Fall SD Blue Thumb Logger
+
+The how-to I used to build this: https://docs.grails.org/latest/guide/REST.html
+
+
+File path: ../Blue-Thumb-Logger/backend/
+
+Relevant files:
+grails-app/conf/application.yml
+  set contextPath: '/btbackend' and has DB settings - refference Dr. Pastel's grails tutorial
+
+domain/backend/Sample.groovy
+  this file has the main sample. has a 1 to many relation with volunteers
+domain/backend/Volunteer.groovy
+ 
+init/backend/BootStrap.groovy
+  create sample entry in the db
+  volunteerMarshaler maps the post values in the json to the sample and volunteer domains backend
+  
+
+Testing/checkout:
+ POST
+  deployed
+    curl -i -X POST -H "Content-Type: application/json" -d '{"wbid":"10", "volunteers":[{"name":"1asaf"}]}' https://hci-dev.cs.mtu.edu:8127/btbackend/sample
+  local  
+    curl -i -X POST -H "Content-Type: application/json" -d '{"wbid":"10", "volunteers":[{"name":"1asaf"}]}' http://localhost:8080/noauthbackend/sample
+ GET
+  deployed
+    curl -i -H "Accept: application/json" https://hci-dev.cs.mtu.edu:8127/btbackend/sample
+  local  
+    curl -i -H "Accept: application/json" http://localhost:8080/noauthbackend/sample

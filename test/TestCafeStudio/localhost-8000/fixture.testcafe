@@ -1,0 +1,1685 @@
+{
+    "fixtures": [
+        {
+            "name": "New Fixture",
+            "pageUrl": "http://localhost:8000/",
+            "tests": [
+                {
+                    "name": "Create new and enter a few fields",
+                    "commands": [
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.logBtn')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.logBtn')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.mainMenu').find('div').withText('New Log')"
+                                        },
+                                        "ruleType": "attr-text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.mainMenu').find('.logBtn')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('New Log').nth(1).find('.logBtn')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('New Log').nth(2)"
+                                        },
+                                        "ruleType": "text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.mainMenu').find('div').nth(1)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('New Log').nth(1).nth(1).find('div').nth(1)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').find('div').nth(1)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 104,
+                                "offsetY": 36
+                            },
+                            "options": {},
+                            "type": "double-click",
+                            "callsite": "1"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.inputField.siteName')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField.siteName')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('.inputField.siteName')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).find('.inputField.siteName')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('input')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).nth(2).find('input')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').find('input')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 84,
+                                "offsetY": 4
+                            },
+                            "text": "site name",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "2"
+                        },
+                        {
+                            "selector": null,
+                            "studio": {
+                                "selectors": null
+                            },
+                            "keys": "tab",
+                            "type": "press-key",
+                            "callsite": "3"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.inputField.wbid')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField.wbid')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('.inputField.wbid')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).find('.inputField.wbid')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('input').nth(1)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).nth(2).find('input').nth(1)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').find('input').nth(1)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": null,
+                                "offsetY": null
+                            },
+                            "text": "1564",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "4"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.inputField.legal').nth(1)"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).find('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('input').nth(3)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).nth(2).find('input').nth(3)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').find('input').nth(3)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 159,
+                                "offsetY": 10
+                            },
+                            "options": {},
+                            "type": "double-click",
+                            "callsite": "5"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.inputField.legal').nth(1)"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).find('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('input').nth(3)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).nth(2).find('input').nth(3)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').find('input').nth(3)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": null,
+                                "offsetY": null
+                            },
+                            "text": "USA",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "6"
+                        },
+                        {
+                            "selector": null,
+                            "studio": {
+                                "selectors": null
+                            },
+                            "keys": "backspace",
+                            "type": "press-key",
+                            "callsite": "7"
+                        },
+                        {
+                            "selector": null,
+                            "studio": {
+                                "selectors": null
+                            },
+                            "keys": "backspace",
+                            "type": "press-key",
+                            "callsite": "8"
+                        },
+                        {
+                            "selector": null,
+                            "studio": {
+                                "selectors": null
+                            },
+                            "keys": "backspace",
+                            "type": "press-key",
+                            "callsite": "9"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.inputField.legal').nth(1)"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).find('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('input').nth(3)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).nth(2).find('input').nth(3)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').find('input').nth(3)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": null,
+                                "offsetY": null
+                            },
+                            "text": "Bown",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "10"
+                        },
+                        {
+                            "selector": null,
+                            "studio": {
+                                "selectors": null
+                            },
+                            "keys": "backspace",
+                            "type": "press-key",
+                            "callsite": "11"
+                        },
+                        {
+                            "selector": null,
+                            "studio": {
+                                "selectors": null
+                            },
+                            "keys": "backspace",
+                            "type": "press-key",
+                            "callsite": "12"
+                        },
+                        {
+                            "selector": null,
+                            "studio": {
+                                "selectors": null
+                            },
+                            "keys": "backspace",
+                            "type": "press-key",
+                            "callsite": "13"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.inputField.legal').nth(1)"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).find('.inputField.legal').nth(1)"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('input').nth(3)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).nth(2).find('input').nth(3)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').find('input').nth(3)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": null,
+                                "offsetY": null
+                            },
+                            "text": "rown",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "14"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.inputField.sampler1')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField.sampler1')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('.inputField.sampler1')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).find('.inputField.sampler1')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.initialModal.modal').find('input').nth(8)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).nth(2).find('input').nth(8)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').find('input').nth(8)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 149,
+                                "offsetY": 21
+                            },
+                            "text": "Logan",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "15"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.forward').find('.fas.fa-arrow-right')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.forward').find('.fas.fa-arrow-right')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).find('.fas.fa-arrow-right')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.fas.fa-arrow-right').nth(0)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.forward').find('i')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).nth(2).find('div').nth(14).find('i')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').find('div').nth(14).find('i')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 14,
+                                "offsetY": 16
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "16"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.inputField.airTemp')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField.airTemp')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.modal.siteModal').find('.inputField.airTemp')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Site Conditions').nth(2).find('.inputField.airTemp')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.modal.siteModal').find('input').nth(1)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Site Conditions').nth(2).nth(2).find('input').nth(1)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').nth(16).find('input').nth(1)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 181,
+                                "offsetY": 11
+                            },
+                            "text": "50",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "17"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('div').withText('Site Conditions').nth(2).find('.fas.fa-arrow-right')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Site Conditions').nth(2).find('.fas.fa-arrow-right')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.forward').nth(1).find('.fas.fa-arrow-right')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.fas.fa-arrow-right').nth(1)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.forward').nth(1).nth(1).find('i')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Site Conditions').nth(2).nth(2).find('div').nth(14).find('i')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').nth(16).find('div').nth(14).find('i')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 13,
+                                "offsetY": 5
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "18"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.modal.observations').find('div').nth(16)"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.modal.observations').find('div').nth(16)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Observations').nth(2).nth(2).find('div').nth(16)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.modal.observations').find('.inputField').nth(7)"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Observations').nth(2).find('.inputField').nth(7)"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').nth(32).find('div').nth(16)"
+                                        },
+                                        "ruleType": "dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField').nth(25)"
+                                        },
+                                        "ruleType": "attr"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 177,
+                                "offsetY": 24
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "19"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.inputField').nth(25).find('input')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField').nth(25).find('input')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Observations').nth(2).find('div').nth(16).find('input')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').nth(32).find('div').nth(16).find('input')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 6,
+                                "offsetY": 11
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "20"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.inputField').nth(29).find('input')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.inputField').nth(29).find('input')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Observations').nth(2).find('div').nth(24).find('input')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').nth(32).find('div').nth(24).find('input')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 10,
+                                "offsetY": 9
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "21"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.observationComments.inputField')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.observationComments.inputField')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.modal.observations').find('.observationComments.inputField')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Observations').nth(2).find('.observationComments.inputField')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.modal.observations').find('textarea')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Observations').nth(2).nth(2).find('textarea')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').nth(32).find('textarea')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 92,
+                                "offsetY": 27
+                            },
+                            "text": "hello world",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "22"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('div').withText('Observations').nth(2).find('.fas.fa-arrow-right')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Observations').nth(2).find('.fas.fa-arrow-right')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.forward').nth(2).find('.fas.fa-arrow-right')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.fas.fa-arrow-right').nth(2)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.forward').nth(2).nth(2).find('i')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Observations').nth(2).nth(2).find('div').nth(37).find('i')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').nth(32).find('div').nth(37).find('i')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 14,
+                                "offsetY": 15
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "23"
+                        }
+                    ]
+                },
+                {
+                    "name": "Navigate",
+                    "commands": [
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.fas.fa-question')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.fas.fa-question')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('New Log').find('.fas.fa-question')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topExpandBtn').find('.fas.fa-question')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topExpandBtn').find('i')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('New Log').find('div').nth(143).find('div').nth(11).find('div').find('i')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(143).find('div').nth(11).find('div').find('i')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 20,
+                                "offsetY": 10
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "1"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.topOption.downarrow').find('.fas.fa-arrow-down')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topOption.downarrow').find('.fas.fa-arrow-down')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Home').nth(2).find('.fas.fa-arrow-down')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.fas.fa-arrow-down').nth(1)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topOption.downarrow').find('i')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Home').nth(2).nth(2).find('div').nth(1).find('i')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(143).find('div').nth(11).find('div').nth(1).find('i')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 8,
+                                "offsetY": 14
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "2"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.fas.fa-question')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.fas.fa-question')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('New Log').find('.fas.fa-question')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topExpandBtn').find('.fas.fa-question')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topExpandBtn').find('i')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('New Log').find('div').nth(143).find('div').nth(11).find('div').find('i')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(143).find('div').nth(11).find('div').find('i')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 17,
+                                "offsetY": 1
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "3"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.aboutUsBtn.topOption')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.aboutUsBtn.topOption')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topBar.expanded').find('div').withText('About Us')"
+                                        },
+                                        "ruleType": "attr-text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topBar.expanded').find('.aboutUsBtn.topOption')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Home').nth(2).find('.aboutUsBtn.topOption')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('About Us').nth(3)"
+                                        },
+                                        "ruleType": "text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topBar.expanded').find('div').nth(3)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Home').nth(2).nth(2).find('div').nth(3)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(143).find('div').nth(11).find('div').nth(3)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 87,
+                                "offsetY": 23
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "4"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.topOption.downarrow').find('.fas.fa-arrow-down')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topOption.downarrow').find('.fas.fa-arrow-down')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Home').nth(2).find('.fas.fa-arrow-down')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.fas.fa-arrow-down').nth(1)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.topOption.downarrow').find('i')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Home').nth(2).nth(2).find('div').nth(1).find('i')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(143).find('div').nth(11).find('div').nth(1).find('i')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 12,
+                                "offsetY": 11
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "5"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.logBtn')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.logBtn')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.mainMenu').find('div').withText('New Log')"
+                                        },
+                                        "ruleType": "attr-text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.mainMenu').find('.logBtn')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('New Log').nth(1).find('.logBtn')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('New Log').nth(2)"
+                                        },
+                                        "ruleType": "text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.mainMenu').find('div').nth(1)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('New Log').nth(1).nth(1).find('div').nth(1)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').find('div').nth(1)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 134,
+                                "offsetY": 19
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "6"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.forward').find('.fas.fa-arrow-right')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.forward').find('.fas.fa-arrow-right')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).find('.fas.fa-arrow-right')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.fas.fa-arrow-right').nth(0)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.forward').find('i')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(2).nth(2).find('div').nth(14).find('i')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(7).find('div').find('div').nth(14).find('i')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 11,
+                                "offsetY": 11
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "7"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.fas.fa-ellipsis-h')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.fas.fa-ellipsis-h')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Site Conditions').find('.fas.fa-ellipsis-h')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.expandBtn').find('.fas.fa-ellipsis-h')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.expandBtn').find('i')"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Site Conditions').find('div').nth(143).find('div').find('div').find('i')"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(143).find('div').find('div').find('i')"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 18,
+                                "offsetY": 5
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "8"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.navbar').find('div').withText('Bacteria')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navbar').find('div').withText('Bacteria')"
+                                        },
+                                        "ruleType": "attr-text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Bacteria').nth(5)"
+                                        },
+                                        "ruleType": "text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navoption').nth(4)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navbar').find('.navoption').nth(4)"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(4).find('.navoption').nth(4)"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navbar').find('div').nth(5)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(4).nth(4).find('div').nth(5)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(143).find('div').find('div').nth(5)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 133,
+                                "offsetY": 20
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "9"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.navbar').find('div').withText('Do')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navbar').find('div').withText('Do')"
+                                        },
+                                        "ruleType": "attr-text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Do').nth(3)"
+                                        },
+                                        "ruleType": "text"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navoption').nth(5)"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navbar').find('.navoption').nth(5)"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(4).find('.navoption').nth(5)"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navbar').find('div').nth(6)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(4).nth(4).find('div').nth(6)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(143).find('div').find('div').nth(6)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 110,
+                                "offsetY": 11
+                            },
+                            "options": {},
+                            "type": "double-click",
+                            "callsite": "10"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('.navoption.downarrow')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navoption.downarrow')"
+                                        },
+                                        "ruleType": "attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navbar').find('.navoption.downarrow')"
+                                        },
+                                        "ruleType": "attr-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(4).find('.navoption.downarrow')"
+                                        },
+                                        "ruleType": "text-attr"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.navbar').find('div').nth(1)"
+                                        },
+                                        "ruleType": "attr-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Initial').nth(4).nth(4).find('div').nth(1)"
+                                        },
+                                        "ruleType": "text-dom"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('body').find('div').find('div').nth(143).find('div').find('div').nth(1)"
+                                        },
+                                        "ruleType": "dom"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 127,
+                                "offsetY": 15
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "11"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

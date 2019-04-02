@@ -1,0 +1,237 @@
+
+eventListeners.js!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Description:
+Instantiates controls for all elements in the DOM
+
+logManagment.js!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Description:
+Log managment contains functions associated with managment
+of the locally stored logs. Localforage is the library
+used to handle local storage and there are two relevant 
+objects in the mapping.
+
+localForage.get('logs') will return a dictionary containing
+every log stored in local storage which can be accessed with
+the key naming scheme log${logNumber}. 
+
+The other variable is localForage.get('maxLogNumber') which contains
+the highest log number stored as of yet (used to avoid duplicate key
+names).
+
+
+/*
+    Formats a logs obj structure to compatiable with backend implementation
+    Params:
+        log - the log to format
+    Return
+        reformated obj.
+
+*/
+function formatVolunteers(log)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Post the log with the specified key to the server.
+    Params: 
+        key - the "log"+lognumber of the log you are attempting to submit.
+    Return
+        void
+
+*/
+function postToServer(key)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Post all all unsubmitted logs to server.
+    Params:
+        void.
+    Return :
+        void
+*/
+function postAllToServer()
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Clears the fields of a form before loading.
+    Params:
+        void
+    Return :
+        void
+*/
+function emptyForm()
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Loads the final review page of a log whenever it is accessed.
+    Params:
+        void
+    Return :
+        void
+*/
+function populateFinalPage()
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Deletes log from local storage
+    Parameters:
+        key - key of to be deleted log in localstorage
+    Return : 
+        A promise resoliving when localstorage has been succesfully updated
+*/
+function deleteLog(key)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Loads the final review page of a log whenever it is accessed.
+    Params:
+        void
+    Return :
+        void
+*/
+function populateFinalPage()
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Routine that populates the form fields with the saved values in localstorage.
+    Parameters: 
+        key - key of the to be loaded data
+    Return :
+        void
+
+*/
+function loadForm(key)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+/*
+    Routine used to load all stored logs into the main menu and set their even listeners.
+    Params:
+        logs - the logs obj from localforage
+        submitted - true if you wish to load the submitted logs, false otherwise
+    Return:
+        void
+*/
+function populateLogs(logs,submitted)
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Initialize the logs, set max log number ect.
+    Params:
+        void
+    Return: 
+        void
+*/
+function initLogs()
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+/*
+    Collect the data currently entered into the form. 
+    Parmeters : 
+        void
+    Return : 
+        A promise which resolves once all the data has been collected.
+*/
+function collectCurrentData()
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+/*
+    Used to load a log once it is clicked in the main menu. Populates the fields with the stored values.
+    Params:
+        key - the key of the log to load
+    Return 
+        void 
+    
+*/
+function getLog(key)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Routine which save the current log.
+    Parameter : 
+        void
+    Return : 
+        void
+*/
+function saveLog()
+
+
+
+animations.js!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Desciption:
+Contains functions controlling flow of animations.
+
+/*
+    Expands the page navigation menu
+    Params :
+        void
+    Return : 
+        void
+*/
+function expandNavigation()
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Fades out main menu
+    Params :
+        void
+    Return : 
+        void
+*/
+function fadeOutMainMenu()
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Despite misleading name - used to expand the help modal
+    Params :
+        void
+    Return : 
+        void
+*/
+function expandTopBar()
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Expands the page navigation menu
+    Params :
+        void
+    Return : 
+        void
+*/
+function expandNavigation(){
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+    Used to trigger animation to a new page.
+    Params :
+        page - the desired page to go to
+    Return : 
+        A promise which resolves once the animation has concluded
+*/
+function changePage(page)
+
+
+
+
+
+
+
+

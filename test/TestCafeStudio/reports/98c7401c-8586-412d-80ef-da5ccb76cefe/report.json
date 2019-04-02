@@ -1,0 +1,68 @@
+{
+    "id": "98c7401c-8586-412d-80ef-da5ccb76cefe",
+    "name": "\"new-fixture.testcafe\" fixture tests",
+    "defaultReportView": "grid",
+    "status": "succeeded",
+    "path": "/home/campus06/lswilson/TestCafeStudio/reports/98c7401c-8586-412d-80ef-da5ccb76cefe/report.json",
+    "runOptions": {
+        "name": "\"new-fixture.testcafe\" fixture tests",
+        "src": [
+            "/home/campus06/lswilson/TestCafeStudio/localhost-8000/new-fixture.testcafe"
+        ],
+        "browsers": [
+            "chrome"
+        ],
+        "skipJsErrors": false,
+        "takeScreenshotsOnFails": true,
+        "quarantineMode": false,
+        "debugMode": false,
+        "debugOnFail": true,
+        "screenshotsPath": "/home/campus06/lswilson/TestCafeStudio/reports/screenshots",
+        "defaultReportView": "grid",
+        "selectorTimeout": 10000,
+        "assertionTimeout": 3000,
+        "speed": 1,
+        "concurrency": 1
+    },
+    "raw": [
+        {
+            "method": "reportTaskStart",
+            "args": [
+                "2018-10-02T21:03:33.078Z",
+                [
+                    "Chrome 68.0.3440 / Linux 0.0.0"
+                ],
+                2
+            ]
+        },
+        {
+            "method": "reportFixtureStart",
+            "args": [
+                "New Fixture",
+                "/home/campus06/lswilson/TestCafeStudio/localhost-8000/new-fixture.testcafe"
+            ]
+        },
+        {
+            "method": "reportTestDone",
+            "args": [
+                "Create new and enter a few fields",
+                "{\"errs\":[],\"durationMs\":7046,\"screenshotPath\":null,\"screenshots\":[],\"quarantine\":null,\"skipped\":false}"
+            ]
+        },
+        {
+            "method": "reportTestDone",
+            "args": [
+                "Navigate",
+                "{\"errs\":[],\"durationMs\":15906,\"screenshotPath\":null,\"screenshots\":[],\"quarantine\":null,\"skipped\":false}"
+            ]
+        },
+        {
+            "method": "reportTaskDone",
+            "args": [
+                "2018-10-02T21:03:56.042Z",
+                2,
+                []
+            ]
+        }
+    ]
+}
